@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-bar-menu{
+    
+    height: 70px;
+}
+.logo{
+    float: left;
+    margin-left: 87px;
+}
+.logo i{
+    font-size: 34px;
+    padding:15px;
+    position: absolute;
+    top: 9px;
+    color: azure;
+}
+.searchbar{
+
+    margin-left: 170px;
+    padding: 10px;
+    float: left;
+}
+.searchbar input{
+    padding-left: 60px;
+    height: 35px;
+    width: 300px;
+    padding: 6px;
+    padding-left: 30px;
+    border-radius: 7px;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid white;
+}
+.searchbar input[type="search"]::-webkit-input-placeholder{
+    color: antiquewhite;
+    font-size: 14px;
+    padding-left: 17px;
+}
+.searchbar i{
+    position: absolute;
+    top: 27px;
+    margin-left: 12px;
+    color: rgb(221, 238, 238);
+}
+nav ul{
+    position: absolute;
+    left:600px;
+    top: 16px;
+}
+nav ul li{
+    display: inline;
+    margin: 33px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Login{
+   background-color: rgb(238,168,65);
+   border: 1px solid rgb(111, 94,62);
+   
+   padding: 8px 18px;
+   border-radius: 5px;
+   
+}
+.Login a{ 
+    color:rgb(152, 107, 39);
+}
+.headline{
+    float: left;
+    margin-top: 100px;
+}
+.headline h2{
+    font-size: 70px;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 100px;
+    color: rgb(248, 242, 242);
+}
+.headline p{
+    text-transform: capitalize;
+    color: rgb(226, 216, 203);
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.headline h3{
+     background-color: rgb(238,168,65);
+     padding: 8px 25px;
+     position: absolute;
+     margin-left: 115px;
+     top: 345px;
+     border-radius: 6px;
+}
+.headline h3 a{
+    text-decoration: none;
+     position: relative;
+     color: black;
+}
+.headline h3 a i{
+    position: absolute;
+    top: 12px;
+    left:70px;
+    color: black;
+}
+
+
+.box{
+    
+    border-radius: 15px;
+    margin-top: 102px;
+    float: left;
+    margin-left: 15px;
+    border: 1px solid rgb(34, 30, 21);
+}
+.box:hover{
+   border: 3px solid rgb(201, 157,54);
+   
+}
+.box img{
+
+    height: 260px;
+    width: 220px;
+     border-radius: 13px;
+     position: relative;
+     
+}
+.box h3{
+    position: absolute;
+    bottom: 220px;
+    color: rgb(202, 202, 204);
+    margin-left: 15px;
+}
